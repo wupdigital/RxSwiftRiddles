@@ -10,6 +10,8 @@
 		4BEA6D98226703EC000C6028 /* RxSwiftRiddles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA6D8E226703EC000C6028 /* RxSwiftRiddles.framework */; };
 		4BEA6D9D226703EC000C6028 /* RxSwiftRiddlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6D9C226703EC000C6028 /* RxSwiftRiddlesTests.swift */; };
 		4BEA6D9F226703EC000C6028 /* RxSwiftRiddles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA6D91226703EC000C6028 /* RxSwiftRiddles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BEA6DA9226707CA000C6028 /* Riddle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DA8226707CA000C6028 /* Riddle1.swift */; };
+		4BEA6DAB22671105000C6028 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DAA22671105000C6028 /* TODO.swift */; };
 		4D4CF324D95043CFA14A9CBF /* libPods-RxSwiftRiddles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98A8D7B81AB398F5B40D91B /* libPods-RxSwiftRiddles.a */; };
 		E198583D07AFEE6091F01CE9 /* libPods-RxSwiftRiddlesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B567122CDD6DA6BAAC04A074 /* libPods-RxSwiftRiddlesTests.a */; };
 /* End PBXBuildFile section */
@@ -33,6 +35,8 @@
 		4BEA6D97226703EC000C6028 /* RxSwiftRiddlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftRiddlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEA6D9C226703EC000C6028 /* RxSwiftRiddlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftRiddlesTests.swift; sourceTree = "<group>"; };
 		4BEA6D9E226703EC000C6028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEA6DA8226707CA000C6028 /* Riddle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle1.swift; sourceTree = "<group>"; };
+		4BEA6DAA22671105000C6028 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		759B5A3D195D9966494BDC31 /* Pods-RxSwiftRiddles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRiddles.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftRiddles/Pods-RxSwiftRiddles.debug.xcconfig"; sourceTree = "<group>"; };
 		8ECD0F9969582D9F3C9DB0A2 /* Pods-RxSwiftRiddles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRiddles.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftRiddles/Pods-RxSwiftRiddles.release.xcconfig"; sourceTree = "<group>"; };
 		B567122CDD6DA6BAAC04A074 /* libPods-RxSwiftRiddlesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwiftRiddlesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +100,8 @@
 			children = (
 				4BEA6D91226703EC000C6028 /* RxSwiftRiddles.h */,
 				4BEA6D92226703EC000C6028 /* Info.plist */,
+				4BEA6DA8226707CA000C6028 /* Riddle1.swift */,
+				4BEA6DAA22671105000C6028 /* TODO.swift */,
 			);
 			path = RxSwiftRiddles;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 				TargetAttributes = {
 					4BEA6D8D226703EC000C6028 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					4BEA6D96226703EC000C6028 = {
 						CreatedOnToolsVersion = 10.2;
@@ -275,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEA6DA9226707CA000C6028 /* Riddle1.swift in Sources */,
+				4BEA6DAB22671105000C6028 /* TODO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 759B5A3D195D9966494BDC31 /* Pods-RxSwiftRiddles.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -440,6 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = digital.wup.RxSwiftRiddles;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -448,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8ECD0F9969582D9F3C9DB0A2 /* Pods-RxSwiftRiddles.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -474,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D3B8E1C5FEC5BFD35711107 /* Pods-RxSwiftRiddlesTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RxSwiftRiddlesTests/Info.plist;
@@ -492,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EEF3C8DA5A4B3747689DAE9 /* Pods-RxSwiftRiddlesTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RxSwiftRiddlesTests/Info.plist;
