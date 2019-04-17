@@ -19,6 +19,7 @@
 		4BEA6DB522671321000C6028 /* Riddle6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DB422671321000C6028 /* Riddle6.swift */; };
 		4BEA6DB72267138D000C6028 /* Riddle7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DB62267138D000C6028 /* Riddle7.swift */; };
 		4BEA6DB9226713F8000C6028 /* Riddle8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DB8226713F8000C6028 /* Riddle8.swift */; };
+		4BEA6DBB22671443000C6028 /* Riddle9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA6DBA22671443000C6028 /* Riddle9.swift */; };
 		4D4CF324D95043CFA14A9CBF /* libPods-RxSwiftRiddles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98A8D7B81AB398F5B40D91B /* libPods-RxSwiftRiddles.a */; };
 		E198583D07AFEE6091F01CE9 /* libPods-RxSwiftRiddlesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B567122CDD6DA6BAAC04A074 /* libPods-RxSwiftRiddlesTests.a */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		4BEA6DB422671321000C6028 /* Riddle6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6.swift; sourceTree = "<group>"; };
 		4BEA6DB62267138D000C6028 /* Riddle7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle7.swift; sourceTree = "<group>"; };
 		4BEA6DB8226713F8000C6028 /* Riddle8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle8.swift; sourceTree = "<group>"; };
+		4BEA6DBA22671443000C6028 /* Riddle9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle9.swift; sourceTree = "<group>"; };
 		759B5A3D195D9966494BDC31 /* Pods-RxSwiftRiddles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRiddles.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftRiddles/Pods-RxSwiftRiddles.debug.xcconfig"; sourceTree = "<group>"; };
 		8ECD0F9969582D9F3C9DB0A2 /* Pods-RxSwiftRiddles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRiddles.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftRiddles/Pods-RxSwiftRiddles.release.xcconfig"; sourceTree = "<group>"; };
 		B567122CDD6DA6BAAC04A074 /* libPods-RxSwiftRiddlesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwiftRiddlesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				4BEA6DB422671321000C6028 /* Riddle6.swift */,
 				4BEA6DB62267138D000C6028 /* Riddle7.swift */,
 				4BEA6DB8226713F8000C6028 /* Riddle8.swift */,
+				4BEA6DBA22671443000C6028 /* Riddle9.swift */,
 			);
 			path = RxSwiftRiddles;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				4BEA6DB122671227000C6028 /* Riddle4.swift in Sources */,
 				4BEA6DB522671321000C6028 /* Riddle6.swift in Sources */,
 				4BEA6DB3226712D9000C6028 /* Riddle5.swift in Sources */,
+				4BEA6DBB22671443000C6028 /* Riddle9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
